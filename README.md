@@ -4,7 +4,7 @@ collection of dot config files for hyprland with a simple install script for a f
 
 Install those programs with pacman
 ```
-sudo pacman -S hyprland nautilus
+sudo pacman -S hyprland nautilus cliphist
 ```
 And the rest with yay
 ```
