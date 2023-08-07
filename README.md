@@ -14,5 +14,5 @@ yay -S kitty waybar-hyprland-git \
     polkit-gnome python-requests starship \
     swappy grim slurp pamixer brightnessctl gvfs \
     bluez bluez-utils lxappearance xfce4-settings \
-    dracula-gtk-theme tela-icon-theme xdg-desktop-portal-hyprland 
+    dracula-gtk-theme tela-icon-theme xdg-desktop-portal-hyprland hyprpicker
 ```
