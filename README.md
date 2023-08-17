@@ -17,3 +17,10 @@ yay -S kitty waybar-hyprland-git \
     dracula-gtk-theme tela-icon-theme \
     xdg-desktop-portal-hyprland hyprpicker wlsunset
 ```
+
+For nvidia CUDA support:
+```
+sudo pacman -S nvidia nvidia-utils
+nvidia-smi # check if it works
+# additional steps needed, probably steps from hyprland wiki about nvidia support
+```
