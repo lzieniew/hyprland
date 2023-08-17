@@ -23,4 +23,5 @@ For nvidia CUDA support:
 sudo pacman -S nvidia nvidia-utils
 nvidia-smi # check if it works
 # additional steps needed, probably steps from hyprland wiki about nvidia support
+# probably it will be something with nvidia-dkms
 ```
