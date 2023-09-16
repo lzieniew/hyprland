@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
-sudo pacman -S greetd greetd-tuigreet
+sudo pacman -S hyprland nautilus cliphist playerctl rofi python-pywal git networkmanager greetd greetd-tuigreet
 sudo cp -r greetd /etc/
 
-sudo pacman -S hyprland nautilus cliphist playerctl rofi python-pywal
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+cd ..
+
 
 yay -S kitty waybar-hyprland-git \
     swaybg swaylock-effects wlogout mako thunar \
@@ -14,3 +17,5 @@ yay -S kitty waybar-hyprland-git \
     dracula-gtk-theme tela-icon-theme dracula-icons-git \ 
     xdg-desktop-portal-hyprland hyprpicker wlsunset \
     zsh zsh-theme-powerlevel10k konsave
+
+konsave -a hyprland.knsv
