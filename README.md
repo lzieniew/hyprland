@@ -19,6 +19,11 @@ yay -S kitty waybar-hyprland-git \
 	zsh zsh-theme-powerlevel10k konsave
 ```
 
+To apply profile with configs for all those apps run
+```
+konsave -a ~/hyprland/hyprland.knsv
+```
+
 For nvidia CUDA support:
 ```
 sudo pacman -S nvidia nvidia-utils
