@@ -2,13 +2,15 @@
 
 sudo pacman -S hyprland nautilus cliphist playerctl rofi python-pywal git networkmanager greetd greetd-tuigreet
 sudo cp -r greetd /etc/
+sudo systemctl enable greetd --force
+sudo systemctl start greetd
 
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 cd ..
 
 
-yay -S kitty waybar-hyprland-git \
+yay -S kitty waybar-hyprland \
     swaybg swaylock-effects wlogout mako thunar \
     ttf-jetbrains-mono-nerd noto-fonts-emoji \
     polkit-gnome python-requests starship \
@@ -18,4 +20,6 @@ yay -S kitty waybar-hyprland-git \
     xdg-desktop-portal-hyprland hyprpicker wlsunset \
     zsh zsh-theme-powerlevel10k konsave
 
-konsave -a hyprland.knsv
+konsave -r hyprland
+konsave -i hyprland.knsv
+konsave -a hyprland
