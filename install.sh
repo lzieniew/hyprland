@@ -20,6 +20,9 @@ yay -S kitty waybar-hyprland \
     xdg-desktop-portal-hyprland hyprpicker wlsunset \
     zsh zsh-theme-powerlevel10k konsave
 
+chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
+
 konsave -r hyprland
 konsave -i hyprland.knsv
 konsave -a hyprland
