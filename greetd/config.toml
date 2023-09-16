@@ -1,0 +1,9 @@
+[terminal]
+vt = "next"
+
+# The default session, also known as the greeter.
+[default_session]
+
+command = "tuigreet --remember --time --issue --asterisks --cmd Hyprland"
+
+user = "greeter"
