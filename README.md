@@ -14,8 +14,9 @@ yay -S kitty waybar-hyprland-git \
     polkit-gnome python-requests starship \
     swappy grim slurp pamixer brightnessctl gvfs \
     bluez bluez-utils lxappearance xfce4-settings \
-    dracula-gtk-theme tela-icon-theme \
-    xdg-desktop-portal-hyprland hyprpicker wlsunset
+    dracula-gtk-theme tela-icon-theme dracula-icons-git \ 
+    xdg-desktop-portal-hyprland hyprpicker wlsunset \
+	zsh zsh-theme-powerlevel10k konsave
 ```
 
 For nvidia CUDA support:
@@ -25,3 +26,4 @@ nvidia-smi # check if it works
 # additional steps needed, probably steps from hyprland wiki about nvidia support
 # probably it will be something with nvidia-dkms
 ```
+
