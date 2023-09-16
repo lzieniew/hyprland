@@ -1,6 +1,12 @@
 # hyprland
 collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
 
+## Instruction
+
+1. First, install arch using archinstall script, using minimal config
+2. Make sure that the internet is connected
+3. Clone this repo somewhere in the home dir: git clone https://github.com/lzieniew/hyprland
+4. Go to the repo and run `./install.sh`
 
 Install those programs with pacman
 ```
