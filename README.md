@@ -4,31 +4,11 @@ collection of dot config files for hyprland with a simple install script for a f
 ## Instruction
 
 1. First, install arch using archinstall script, using minimal config
-2. Make sure that the internet is connected
+2. Make sure that the internet is connected and install git `sudo pacman -S git`
 3. Clone this repo somewhere in the home dir: git clone https://github.com/lzieniew/hyprland
-4. Go to the repo and run `./install.sh`
+4. Go to the cloned repo and run `./install.sh`
 
-Install those programs with pacman
-```
-sudo pacman -S hyprland nautilus cliphist playerctl rofi python-pywal
-```
-And the rest with yay
-```
-yay -S kitty waybar-hyprland-git \
-    swaybg swaylock-effects wlogout mako thunar \
-    ttf-jetbrains-mono-nerd noto-fonts-emoji \
-    polkit-gnome python-requests starship \
-    swappy grim slurp pamixer brightnessctl gvfs \
-    bluez bluez-utils lxappearance xfce4-settings \
-    dracula-gtk-theme tela-icon-theme dracula-icons-git \ 
-    xdg-desktop-portal-hyprland hyprpicker wlsunset \
-	zsh zsh-theme-powerlevel10k konsave
-```
 
-To apply profile with configs for all those apps run
-```
-konsave -a ~/hyprland/hyprland.knsv
-```
 
 For nvidia CUDA support:
 ```
