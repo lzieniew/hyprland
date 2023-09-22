@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-sudo pacman -S hyprland nautilus cliphist playerctl rofi python-pywal git networkmanager greetd greetd-tuigreet vim
+sudo pacman -Syu
+
+sudo pacman -S hyprland nautilus cliphist playerctl rofi python-pywal git networkmanager greetd greetd-tuigreet vim greetd
 sudo cp -r greetd /etc/
 sudo systemctl enable greetd --force
 sudo systemctl start greetd
