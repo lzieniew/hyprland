@@ -12,7 +12,7 @@ git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 cd ..
 
 
-yay -S kitty waybar-hyprland rofi-lbonn-wayland \
+yay -S kitty waybar-hyprland rofi-lbonn-wayland-git \
     swaybg swaylock-effects wlogout mako thunar \
     ttf-jetbrains-mono-nerd noto-fonts-emoji \
     polkit-gnome python-requests starship \
