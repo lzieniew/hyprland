@@ -28,3 +28,6 @@ sudo chsh -s /bin/zsh
 konsave -r hyprland
 konsave -i hyprland.knsv
 konsave -a hyprland
+
+#set default browser as firefox
+xdg-settings set default-web-browser firefox.desktop
