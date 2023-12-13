@@ -25,6 +25,9 @@ yay -S kitty waybar-hyprland rofi-lbonn-wayland-git \
 chsh -s /bin/zsh
 sudo chsh -s /bin/zsh
 
+# fix for strange encoding of polish characters by git
+git config --global core.quotepath false
+
 konsave -r hyprland
 konsave -i hyprland.knsv
 konsave -a hyprland
