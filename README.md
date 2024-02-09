@@ -1,9 +1,8 @@
 # hyprland
 collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
 
-###Disclaimer
-The hyprland.knsv file contains most of the actual config files, which could be the most useful for just having a look at the config and not applying it to some machine.
-The .knsv file format can be unpacked with standard zip utilities, like: `unzip hyprland.knsv` for inspection
+#### Disclaimer
+The hyprland.knsv file contains most of the actual config files and is used with Konsave program to easily apply and save configuration. But if you want to just take a look at the config, without aplying it to your machine, you can unpack it with standard zip utilities, like: `unzip hyprland.knsv`.
 
 ## Instruction
 
