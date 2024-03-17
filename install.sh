@@ -2,7 +2,7 @@
 
 sudo pacman -Syu
 
-sudo pacman -S hyprland nautilus cliphist playerctl python-pywal git networkmanager greetd greetd-tuigreet vim greetd obs-studio
+sudo pacman -S hyprland nautilus cliphist playerctl python-pywal git networkmanager greetd greetd-tuigreet vim greetd obs-studio --noconfirm
 sudo cp -r greetd /etc/
 sudo systemctl enable greetd --force
 sudo systemctl start greetd
@@ -20,7 +20,7 @@ yay -S kitty waybar-hyprland rofi-lbonn-wayland-git \
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme tela-icon-theme dracula-icons-git \
     xdg-desktop-portal-hyprland hyprpicker wlsunset \
-    zsh zsh-theme-powerlevel10k konsave hyprlshot
+    zsh zsh-theme-powerlevel10k konsave hyprlshot --noconfirm
 
 chsh -s /bin/zsh
 sudo chsh -s /bin/zsh
