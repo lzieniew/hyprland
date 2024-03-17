@@ -1,3 +1,4 @@
 At 17.03.2024 I've installed arch from this instruction on my new desktop.
 Here are what problem I've encountered, which should be fixed:
 1. [ ] installation process was interrupted by starting of hyprland, so I couldn't finish it, and majority of programs and settings wasn't installed
+2. [ ] yay -S command was stuck on "tydying install" step, I'm not sure which package was causing it
