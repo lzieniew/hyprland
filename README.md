@@ -9,7 +9,8 @@ The hyprland.knsv file contains most of the actual config files and is used with
 1. First, install arch using archinstall script, using minimal config
 2. Make sure that the internet is connected and install git `sudo pacman -S git`
 3. Clone this repo somewhere in the home dir: git clone https://github.com/lzieniew/hyprland
-4. Go to the cloned repo and run `./install.sh`
+4. [Optional] - arch by default downloads only one package at the time, to make installation faster uncomment the  `#ParallelDownloads = 5` line. You can also increase the actual number to 10 for example
+5. Go to the cloned repo and run `./install.sh`
 
 
 
